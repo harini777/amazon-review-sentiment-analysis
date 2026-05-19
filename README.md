@@ -87,9 +87,11 @@ Accuracy: 83.86%
 
 ![Sentiment Distribution](screenshots/sentiment_distribution.png)
 
-### Confusion Matrix
+### Confusion Matrix Heatmap
 
-![Confusion Matrix](screenshots/confusion_matrix.png)
+The heatmap shows how many reviews were correctly and incorrectly classified by the model.
+
+![Confusion Matrix Heatmap](screenshots/confusion_matrix_heatmap.png)
 
 ### Top Frequent Words
 
