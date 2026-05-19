@@ -127,10 +127,16 @@ amazon-review-sentiment-analysis/
 
 ## Installation
 
-Clone the repository and install the required libraries:
+Clone the repository, install the required libraries, and add the dataset file.
 
 ```bash
 python3 -m pip install -r requirements.txt
+```
+
+Place the dataset at:
+
+```text
+data/Reviews.csv
 ```
 
 ## Usage
@@ -139,6 +145,13 @@ Train the model:
 
 ```bash
 python3 src/train_model.py
+```
+
+This creates two files:
+
+```text
+sentiment_model.pkl
+tfidf_vectorizer.pkl
 ```
 
 Run the Streamlit app:
@@ -165,4 +178,3 @@ Prediction: negative
 - Compare Naive Bayes with Logistic Regression
 - Add n-gram features for better context
 - Deploy the Streamlit app online
-
